@@ -1,0 +1,46 @@
+{
+  "name": "teaching-suite",
+  "adapter_version": "0.1.0",
+  "version_file": "VERSION",
+  "generated_for": "codex",
+  "generated_date": "2026-06-15",
+  "source_repositories": [
+    {
+      "name": "teaching-skills",
+      "url": "https://github.com/YujxZJCN/teaching-skills.git",
+      "commit": "1939e3fc00a8b2b82ddaae41a30daa967ae94059",
+      "included_paths": [
+        "accreditation-mapper",
+        "assessment-architect",
+        "bilingual-courseware",
+        "cohort-analyst",
+        "course-designer",
+        "course-publisher",
+        "deck-studio",
+        "lab-forge",
+        "lesson-builder",
+        "media-scripter",
+        "student-mentor",
+        "submission-auditor",
+        "ta-coordinator",
+        "teaching-pipeline",
+        "teaching-reflector",
+        "shared",
+        "scripts (validators + dashboard)",
+        "commands",
+        "MODE_REGISTRY.md",
+        "docs/ARCHITECTURE.md"
+      ]
+    }
+  ],
+  "excluded_patterns": [
+    ".git",
+    ".github",
+    ".claude-plugin",
+    "skills/ symlinks",
+    "scripts/build_codex.py",
+    "tests/",
+    "examples/showcase/*.html"
+  ],
+  "rename_rule": "every vendored <skill>/SKILL.md -> ts/<skill>/WORKFLOW.md so Codex registers only the root router skill"
+}
