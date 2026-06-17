@@ -1,6 +1,6 @@
 {
   "name": "teaching-suite",
-  "adapter_version": "0.1.0",
+  "adapter_version": "0.2.0",
   "version_file": "VERSION",
   "generated_for": "codex",
   "generated_date": "2026-06-15",
@@ -8,7 +8,7 @@
     {
       "name": "teaching-skills",
       "url": "https://github.com/YujxZJCN/teaching-skills.git",
-      "commit": "1939e3fc00a8b2b82ddaae41a30daa967ae94059",
+      "commit": "50258caf73fb0495adc725864fdf278a3072716c",
       "included_paths": [
         "accreditation-mapper",
         "assessment-architect",
@@ -26,10 +26,9 @@
         "teaching-pipeline",
         "teaching-reflector",
         "shared",
-        "scripts (validators + dashboard)",
+        "scripts (validators + dashboard + render/LMS)",
         "commands",
-        "MODE_REGISTRY.md",
-        "docs/ARCHITECTURE.md"
+        "MODE_REGISTRY.md"
       ]
     }
   ],
