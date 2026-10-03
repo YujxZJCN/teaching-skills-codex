@@ -1,6 +1,6 @@
 {
   "name": "teaching-skills",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Codex-native Teaching Skills suite for university professors: course design, lessons, assessment, mentoring, submission auditing, reflection, and 8 extension skills.",
   "author": {
     "name": "Jiaxing Yu"
@@ -22,6 +22,7 @@
   "interface": {
     "displayName": "Teaching Skills",
     "shortDescription": "Course design, lessons, assessment, mentoring, and reflection.",
+    "composerIcon": "./assets/icon.svg",
     "longDescription": "Teaching Skills for Codex covers the full university teaching lifecycle: backward course design with constructive-alignment gates, lesson building, blueprint-first assessment with AI-era integrity audits, spec-driven submission auditing, student mentoring, learner analysis, evaluation analysis, and a one-file HTML course dashboard.",
     "developerName": "Jiaxing Yu",
     "category": "Education",
