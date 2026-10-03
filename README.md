@@ -83,8 +83,8 @@ python3 skills/teaching-suite/ts/scripts/build_dashboard.py course_passport.yaml
 
 ## Versioning
 
-Codex package `0.2.0`. Vendored from
-`YujxZJCN/teaching-skills@50258caf73fb` on 2026-06-15. The package version tracks
+Codex package `0.2.1`. Vendored from
+`YujxZJCN/teaching-skills@87cc1aa13784` on 2026-10-03. The package version tracks
 the adapter independently of the upstream suite version; see `manifest.json`.
 
 ## License
